@@ -1,34 +1,33 @@
-body{
-  background-color: #c9c9cf;
+ul {
+list-style: none;
+padding: 0;
+}
+img {
+  max-width: 100%;
 }
 
-.octodex{
-  margin: 50px auto;
+/* Main Object */
+.octocat {
+  width: 300px;
+display: inline-block;
+margin-right: 10px;
 }
 
-.octocat img{
-  height: 250px;
-  width: 250px;
-border: 2px solid black;
-background-color: white
+.octocat img {
+  border: 1px solid grey;
 }
-.octocat{
-  display: inline-block;
-  border: 1px black;
-  margin-left: 100px;
-    margin-right: auto
-}
-.authors img{
-  height: 25px;
+/* Footer Area*/
+
+
+
+
+/*Author's Area*/
+.authors img {
   width: 25px;
-  float: right;
-}
-.image-caption{
-  float: right;
-  font-size: 10px;
-  display: inline;
-  margin-right: 50px
 }
 
 
 
+
+
+  
