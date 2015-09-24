@@ -5,27 +5,59 @@ padding: 0;
 img {
   max-width: 100%;
 }
+a{
+  text-decoration: none;
+}
 
 /* Main Object */
 .octocat {
   width: 300px;
 display: inline-block;
 margin-right: 10px;
+border: 1px solid #dedede;
 }
 
 .octocat img {
   border: 1px solid grey;
 }
 /* Footer Area*/
+.image-number:before{
+  content: "#";
+}
+.image-footer:before 
+{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 8.5px 0 8.5px;
+  border color: #4a4f52 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: 0;
+}
+.image-footer{
+  border-bottom: 1px solid #dedede;
+  overflow: auto;
+  padding: 10px 0 10px 0;
+}
 
-
-
-
+.image-caption {
+  display: inline-block;
+  float: right;
+}
+.image-number {
+  float: left;
+  margin-top: 7px;
+}
 /*Author's Area*/
 .authors img {
   width: 25px;
 }
-
+.authors{
+  display: inline-block;
+  vertical-align: middle
+}
 
 
 
